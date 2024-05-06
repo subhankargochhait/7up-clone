@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    /* header start */
+.header{
+    padding:  2rem; 
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #009e5f;
+    position: fixed;
+    height: 38px;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    
+}
+.header .navbar{
+    position: sticky;
+    display: block;
+    padding-top: 50px;
+}
+.header .navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem ;
+   margin-right: 20px;
+}
+ .navbar a:hover{
+    color: black;
+ }
+.logo img{
+    height: 90px;
+    width: auto;
+    padding-top: 50px;
+}
+.logo{
+    /* margin-top: 48px; */
+   position: fixed;
+    margin-left: 20px;
+}
+/* header end */
+/* container start */
+.container{
+     height: 700px;
+     background-color: rgb(6, 6, 237);
+     width: 100%;
+     display: flex;
+     margin-top: -46px;   
+}
+.hero_left{
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 30%;
+    align-content: center;
+    cursor: pointer;
+}
+.hero_left img{
+    width: 90%;
+    margin-left: 25px;
+    margin-bottom: 0px;   
+}
+.hero_left h2{
+    color: #009e5f;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 600;  
+}
+.hero_left h3{
+    color: #009e5f;
+    font-size: 1.5rem;
+    text-align: center;
+    border-radius: 0%;
+    border: 3px solid #009e5f;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+.hero_left b{
+    color:#009e5f;
+    text-decoration: none;
+}
+.hero_left:hover {
+    b,h3{
+        background-color: #009e5f;
+        color: white;
+ }
+}
+.container_right{
+    height: auto;
+    width: 80%;
+    align-content: center;
+    justify-content: space-between;
+    cursor: pointer;
+    background-image: url(imageandvideo/7up_featured\ \(1\).jpg);
+}
+.container_right img{
+    height: 10%;
+    width: 8%;
+   padding-left:50px ; 
+}
+.container_right .a{
+    padding-right: 380px;
+    height: 25px;
+    width: 18px;
+}
+.container_right .r{
+    padding-left: 490px;
+    height: 25px;
+    width: 18px;
+}
+.container_right .v{
+    height: 90px;
+    width: 90px;
+}
+.can{
+    height: 850px;
+    background-color: aqua;
+    display: flex;
+    width: 100%;
+}
+.can .left{
+    width: 30%;
+    background-color: #009e5f;
+    align-content: center;  
+}
+.can .left h1{
+    color: white;
+    font-size: 3.5rem;
+     padding-left: 70px;   
+}
+.can .left h3{
+    color: white;
+    font-size: 1.5rem;
+    padding-left: 70px;
+}
+.can .left button{
+border: 0ch;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 15PX;
+    background-color: white;
+    color: #009e5f;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+.can .left button:hover{
+    border: 0ch;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 15PX;
+    background-color:  #009e5f;
+    color:white;
+    margin-top: 30px;
+    margin-left: 70px;
+ transition: 0.5s;
+}
+.can img{
+    height: 850px;
+    width: 70%;
+}
+/* can end */
+.miror{
+    height: 2700px;
+    width: 100%;
+    background-color: aqua;
+}
+ .cocktail{
+    height: 1000px;
+    width: 100%;
+    display: grid;
+}
+.cocktail img{
+    background-image: url("imageandvideo/module_cocktail (1).jpg");
+    height: 900px;
+    width: 100%;
+   background-attachment: fixed;
+}
+.cocktail h1{
+    margin-left: 40px;
+   text-align: center;
+   margin-top: -500px;
+   font-weight: bold;
+   font-size: 3rem;
+   color: white;
+}
+.cocktail a{
+    text-decoration: none;  
+}
+.cocktail h1{
+    border: 20px solid #fe5887;
+  margin-left: 500px;
+  margin-right: 500px;
+    background-color: #fe5887;
+}
+.cocktail h1:hover{
+    transform: scale(1.1);
+}
+.cooking{
+    height: 1000px;
+    width: 100%;
+    display: grid;
+  margin-top: -100px;
+}
+.cooking img{
+    background-image: url("imageandvideo/module_cooking\ \(1\).jpg");
+    height: 900px;
+    width: 100%;
+   background-attachment: fixed;
+}
+.cooking h1{
+    margin-left: 40px;
+   text-align: center;
+   margin-top: -550px;
+   font-weight: bold;
+   font-size: 2rem;
+   color: white;
+}
+.cooking a{
+    text-decoration: none; 
+}
+.cooking h1{   
+    border: 20px solid  #6ba13f;
+  margin-left: 500px;
+  margin-right: 500px;
+    background-color:#6ba13f;
+}
+.cooking h1:hover{
+    transform: scale(1.1);
+}
+.cocktail{
+    height: 1000px;
+    width: 100%;
+    display: grid;
+}
+.cocktail img{
+    background-image: url("imageandvideo/module_cocktail (1).jpg");
+    height: 900px;
+    width: 100%;
+   background-attachment: fixed;
+}
+.cocktail h1{
+    margin-left: 40px;
+   text-align: center;
+   margin-top: -500px;
+   font-weight: bold;
+   font-size: 2rem;
+   color: white;
+}
+.cocktail a{
+    text-decoration: none;   
+}
+.cocktail h1{ 
+    border: 20px solid #fe5887;
+  margin-left: 500px;
+  margin-right: 500px;
+    background-color: #fe5887;
+}
+.cocktail h1:hover{
+    transform: scale(1.1);
+}
+
+.all-recipes{
+    height: 1000px;
+    width: 100%;
+    display: grid;
+  margin-top: -100px;
+}
+.all-recipes img{
+    background-image: url("imageandvideo/module_seeall\ \(1\).jpg");
+    height: 900px;
+    width: 100%;
+   background-attachment: fixed;
+}
+.all-recipes h1{
+    margin-left: 40px;
+   text-align: center;
+   margin-top: -550px;
+   font-weight: bold;
+   font-size: 2rem;
+   color: white;
+}
+.all-recipes a{
+    text-decoration: none;   
+}
+.all-recipes h1{  
+    border: 20px solid  #c064ac;
+  margin-left: 500px;
+  margin-right: 500px;
+    background-color:#c064ac;
+}
+.all-recipes h1:hover{
+    transform: scale(1.1);
+}
+/* cans start */
+.two-div{
+    height: 600px;
+    width: 100%;
+    display: flex;
+}
+.two-right{
+    height: 600px;
+    width: 50%;  
+}
+.two-right img{
+   height: 280px;
+    padding: 10px;
+    padding-left: 100px;
+align-items: center;
+margin-right: 70px;
+}
+.two-right img:hover{
+    transform: scale(1.1);
+}
+.two-left{
+    height: 600px;
+    width: 50%;
+    background-color: #ececec;
+}
+.two-left h1{
+    color: #009e5f;
+    font-size: 5rem;
+    font-weight: 700;
+  padding-left: 100px;  
+}
+.two-left h1 p{
+    color: rgb(209, 29, 29);
+     margin-top: -95px;
+     margin-left: 10px; 
+}
+.two-left p{
+    color: gray;
+    padding-left: 100px;
+    font-weight: 600;
+}
+.two-left img{
+    height: 250px;
+    padding-left: 100px;
+    margin-top:20px ;
+}
+/* footer start */
+.footer{
+    height: 600px;
+    width: 100%; 
+}
+.footer img{
+    height: 600px;
+    width: 100%;
+}
+footer{
+    background-color: rgba(255, 255, 255, .75);
+  color: #000000;
+  opacity: .7;
+  border: 2px solid rgba(255, 255, 255, .75);
+  margin-top: -150px;
+  margin-left: 300px;
+  margin-right: 260px;
+  margin-bottom: 80px;
+border-radius: 10px;
+text-align: center;
+overflow: hidden;
+align-items: center;
+}
+footer nav ul{
+    display: flex;
+   margin-left: 450px;
+  padding: 10px;
+  gap: 10px;
+    text-decoration: none;
+  list-style: none;
+
+}
